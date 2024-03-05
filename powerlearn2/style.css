@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(150, 200, 230);
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+li.h1,a,button{
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+header{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo{
+    margin-right: auto;
+}
+.nav_menu li {
+    display: inline-block;
+    padding: 20px;
+}
+.nav_menuli a{
+    transition: all 0.3s ease 0s;
+}
+.nav_menu li a:hover{
+    color: blue;
+}
+button{
+    padding: 9px 25px;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: all 0.3s ease 0;
+}
+button:hover{
+    background-color: blue;
+}

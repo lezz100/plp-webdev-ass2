@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ body{
+    background-color: rgb(270, 120, 150);
+}
+
+.card{
+    background: white;
+    width: 300px;
+    margin: 10px;
+    border-radius: 25px;
+}
+.card-image{
+    height: 300px;
+    margin-bottom: 5px;
+    background-size: cover;
+    border-radius: 15px 15px;
+}
+.pizza-1{
+    background-image: url('images/pizza.jpeg');
+}
+.pasta-2{
+    background-image: url('images/harmburger.jpeg');
+}
+.hamburger-3{
+    background-image: url('images/pasta.jpeg');
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale (1.03);
+    transition: all is ease;
+
+}
